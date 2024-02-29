@@ -3,7 +3,7 @@ import { useState } from "react";
 function App() {
   return (
     <>
-      <p>hii</p>
+      <p className=" text-red-300">hii</p>
     </>
   );
 }
