@@ -1,11 +1,14 @@
-import { useState } from "react";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import Test from "./components/Test";
+import Home from "./components/Home";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <p className=" text-red-300">hii</p>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/test" element={<Test />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
