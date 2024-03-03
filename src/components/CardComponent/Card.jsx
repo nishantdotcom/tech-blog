@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "./pic.jpg";
+import pic from "../../assets/pic.jpg";
 function Card() {
   return (
     <div className="h-[360px] w-[250px] rounded-2xl shadow-2xl ">
@@ -19,10 +19,12 @@ function Card() {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
           reprehenderit
         </div>
-        <div className=" flex justify-center pt-4">
-          <button className=" bg-blue-600 rounded-xl p-2 text-white font-semibold ">
-            Know More
-          </button>
+        <div className="">
+          <div className=" flex justify-center pt-4 ">
+            <button className=" bg-blue-600 rounded-xl p-2 text-white font-semibold  border border-white border-4px">
+              Know More
+            </button>
+          </div>
         </div>
       </div>
     </div>
