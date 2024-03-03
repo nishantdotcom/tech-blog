@@ -3,6 +3,7 @@ import Test from "./components/Test";
 import Home from "./components/Home";
 import CardDesign2 from "./components/CardDesign2";
 import CardDesign3 from "./components/CardDesign3";
+import CardDesign4 from "./components/CardDesign4";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Route path="/test" element={<Test />} />
         <Route path="/card2" element={<CardDesign2 />} />
         <Route path="/card3" element={<CardDesign3 />} />
+        <Route path="/card4" element={<CardDesign4 />} />
       </Routes>
     </BrowserRouter>
   );
