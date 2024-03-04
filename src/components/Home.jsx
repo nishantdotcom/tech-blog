@@ -19,6 +19,9 @@ function Home() {
         <a href="/card4" className="text-white bg-blue-500 rounded-full p-2">
           4
         </a>
+        <a href="/card5" className="text-white bg-blue-500 rounded-full p-2">
+          5
+        </a>
       </div>
     </div>
   );
