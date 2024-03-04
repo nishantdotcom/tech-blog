@@ -1,27 +1,63 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 function Home() {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="flex justify-center text-slate-400 m-4 text-2xl  font-semibold">
         Try Different Responsive Card Designs
       </div>
-      <div className="flex justify-center gap-x-4 ">
-        <a href="/test" className="text-white bg-blue-500 rounded-full p-2">
-          1
-        </a>
-        <a href="/card2" className="text-white bg-blue-500 rounded-full p-2">
-          2{" "}
-        </a>
-        <a href="/card3" className="text-white bg-blue-500 rounded-full p-2">
-          3
-        </a>
-        <a href="/card4" className="text-white bg-blue-500 rounded-full p-2">
-          4
-        </a>
-        <a href="/card5" className="text-white bg-blue-500 rounded-full p-2">
-          5
-        </a>
+      <div className=" flex justify-center gap-x-4 ">
+        <div>
+          <button
+            className="text-blue-400"
+            onClick={() => {
+              navigate("/test");
+            }}
+          >
+            1
+          </button>
+        </div>
+        <div>
+          <button
+            className="text-blue-400"
+            onClick={() => {
+              navigate("/card2");
+            }}
+          >
+            2
+          </button>
+        </div>
+        <div>
+          <button
+            className="text-blue-400"
+            onClick={() => {
+              navigate("/card3");
+            }}
+          >
+            3
+          </button>
+        </div>
+        <div>
+          <button
+            className="text-blue-400"
+            onClick={() => {
+              navigate("/card4");
+            }}
+          >
+            4
+          </button>
+        </div>
+        <div>
+          <button
+            className="text-blue-400"
+            onClick={() => {
+              navigate("/card5");
+            }}
+          >
+            5
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -9,8 +9,8 @@ import CardDesign5 from "./components/CardDesign5";
 export default function App() {
   return (
     <BrowserRouter>
+      <Home />
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="/test" element={<Test />} />
         <Route path="/card2" element={<CardDesign2 />} />
         <Route path="/card3" element={<CardDesign3 />} />
