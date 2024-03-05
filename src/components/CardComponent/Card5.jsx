@@ -59,17 +59,17 @@ function Card5() {
               </div>
             </div>
           </div>
-          <div className="pt-1 ">
+          <div className="pt-1 border ">
             <div className=" flex justify-end text-xl font-semibold text-slate-400">
               &#36; 9.00
             </div>
-            <div className=" flex justify-end text-xs text-slate-400">
+            <div className=" flex justify-end text-xs text-slate-400 border">
               Nine Doller only.
             </div>
           </div>
         </div>
         <div className="pt-10 flex justify-center">
-          <button className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%  text-white text-lg  font-semibold pl-20 pr-20 pt-2 pb-2 rounded-2xl">
+          <button className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%  text-white text-lg  font-semibold pt-2 pb-2 pl-14 pr-14 rounded-2xl">
             Add to Cart
           </button>
         </div>
