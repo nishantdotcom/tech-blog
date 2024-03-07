@@ -8,6 +8,7 @@ import CardDesign5 from "./components/CardDesign5";
 import CardDesign6 from "./components/CardDesign6";
 import CardDesign7 from "./components/CardDesign7";
 import ForgotPage from "./components/ForgotPage";
+import Question from "./components/Question";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/card6" element={<CardDesign6 />} />
         <Route path="/card7" element={<CardDesign7 />} />
         <Route path="/reset-password" element={<ForgotPage />} />
+        <Route path="/question" element={<Question />} />
       </Routes>
     </BrowserRouter>
   );
