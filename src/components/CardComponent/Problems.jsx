@@ -14,14 +14,16 @@ function Problems() {
   return (
     <div className="   border border-gray-900 h-[100%]   bg-gray-800  rounded-xl">
       <div className="flex justify-between rounded-t-xl text-white bg-gray-900 p-1 ">
-        <div className=" flex justify-start  gap-x-4 ">
+        <div className=" flex justify-start  gap-x-3 ">
           <div className=" flex justify-center gap-x-1 cursor-pointer hover:bg-gray-700 rounded-lg pl-1 pr-1 pt-0.5 pb-0.5">
             <div>
               <div className=" ">
                 <MdOutlineDescription size={22} className="text-sky-500" />
               </div>
             </div>
-            <div className=" text-sm pt-0.5 font-semibold">Description</div>
+            <div className=" text-xs sm:text-sm pt-0.5 font-semibold">
+              Description
+            </div>
           </div>
           <div className=" flex justify-center gap-x-1  cursor-pointer hover:bg-gray-700 rounded-lg pl-1 pr-1 pt-0.5 pb-0.5">
             <div className="">
@@ -31,7 +33,9 @@ function Problems() {
                 </div>
               </div>
             </div>
-            <div className="text-sm pt-0.5 font-semibold">Solutions</div>
+            <div className="text-xs sm:text-sm pt-0.5 font-semibold">
+              Solutions
+            </div>
           </div>
           <div className=" flex justify-center gap-x-1  cursor-pointer hover:bg-gray-700 rounded-lg pl-1 pr-1 pt-0.5 pb-0.5">
             <div>
@@ -39,7 +43,9 @@ function Problems() {
                 <BiSolidTimer size={22} className="text-sky-500" />
               </div>
             </div>
-            <div className="text-sm pt-0.5 font-semibold">Submissions</div>
+            <div className="text-xs sm:text-sm pt-0.5 font-semibold">
+              Submissions
+            </div>
           </div>
         </div>
         <div className=" text-white ">
