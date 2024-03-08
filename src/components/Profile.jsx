@@ -4,7 +4,7 @@ import ProfileCard from './CardComponent/ProfileCard'
 
 function Profile() {
   return (
-    <div className=" pl-20 pr-20 pt-2 pb-2 sm:flex  sm:gap-x-4 max-h-max bg-black">
+    <div className=" p-4 sm:pl-20 sm:pr-20 sm:pt-2 sm:pb-2 sm:flex  sm:gap-x-4 max-h-max bg-black">
     <div className=' sm:w-[30%]'>
     <SideProfile/>
     </div>
@@ -12,6 +12,7 @@ function Profile() {
     <ProfileCard/>
     </div>
     </div>
+    
    
   )
 }
