@@ -98,6 +98,17 @@ function Home() {
             9
           </button>
         </div>
+        <div>
+          <button
+            className="text-blue-400"
+            onClick={() => {
+              navigate("/profile");
+            }}
+          >
+            10
+            
+          </button>
+        </div>
       </div>
     </div>
   );
