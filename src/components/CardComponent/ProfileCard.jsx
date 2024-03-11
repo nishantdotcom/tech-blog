@@ -1,3 +1,4 @@
+import SubmissionHistory from "./SubmissionHistory"
 
 
 function ProfileCard() {
@@ -65,6 +66,7 @@ function ProfileCard() {
           <div className="pl-2 text-xl font-semibold">16</div>
         </div>
       </div>
+      <SubmissionHistory/>
     </div>
   )
 }
