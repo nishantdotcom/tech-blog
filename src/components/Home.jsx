@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useNavigate } from "react-router-dom";
 function Home() {
   const navigate = useNavigate();
@@ -106,6 +106,17 @@ function Home() {
             }}
           >
             10
+            
+          </button>
+        </div>
+        <div>
+          <button
+            className="text-blue-400"
+            onClick={() => {
+              navigate("/edit-profile");
+            }}
+          >
+            11
             
           </button>
         </div>

@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Test from "./components/Test";
 import Home from "./components/Home";
 import CardDesign2 from "./components/CardDesign2";
@@ -10,6 +10,7 @@ import CardDesign7 from "./components/CardDesign7";
 import ForgotPage from "./components/ForgotPage";
 import Question from "./components/Question";
 import Profile from "./components/Profile";
+import GetEditProfile from "./components/GetEditProfile";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/reset-password" element={<ForgotPage />} />
         <Route path="/question" element={<Question />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/edit-profile" element={<GetEditProfile />} />
       </Routes>
 
     </BrowserRouter>
